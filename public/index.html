@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+            #map {
+                position: fixed !important;
+                width: 100%;
+                height: 100%;
+                top: 74px;
+                z-index: 1;
+            }
+        </style>
+
+        <!-- Polyfills -->
+        <!--[if lt IE 10]>
+        <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,es5-shim/4.5.7/es5-shim.min.js,es5-shim/4.5.7/es5-sham.min.js,es6-shim/0.35.1/es6-sham.min.js,es6-shim/0.35.1/es6-shim.min.js,html5shiv/3.7.2/html5shiv.min.js,media-match/2.0.2/media.match.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 11]>
+        <script src="https://as.alipayobjects.com/g/component/??es6-shim/0.35.1/es6-sham.min.js,es6-shim/0.35.1/es6-shim.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id="root"></div>
+        <div id="map"></div>
+    </body>
+
+    <script src="https://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+    <script src="https://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="https://cdn.hcharts.cn/highcharts/highcharts-more.js"></script>
+    <script src="https://cdn.hcharts.cn/highcharts/modules/solid-gauge.js"></script>
+
+    <script src="index.bundle.js"></script>
+
+</html>
